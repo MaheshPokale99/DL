@@ -1,2 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Large dataset files
+creditcard.csv
+dataset/**/creditcard.csv
+
+# Model weights and large binaries
+*.h5
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Byte-compiled
+*.pyc
 creditcard.csv
 dataset
